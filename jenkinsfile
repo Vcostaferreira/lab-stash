@@ -2,10 +2,8 @@ pipeline {
   agent any
   stages{
    stage('testando stash')
-    staps{
-        echo 'teste'
-      script{
-      }
+    steps{
+        echo 'teste'      
     }
   }
 }
