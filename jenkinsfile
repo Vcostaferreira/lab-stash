@@ -1,9 +1,0 @@
-pipeline {
-  agent any
-  stages{
-   stage('testando stash')
-    steps{
-        echo 'teste'      
-    }
-  }
-}
